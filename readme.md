@@ -18,18 +18,3 @@ Generation : Related to Prisma Client (It changes localy)
 4. npm install prisma --save-dev <br/>
 5. npx prisma init --datasource-provider sqlite <br/>
    <br/>
-
-<!----------------- Sample Data -------------->
-
-// ---------------- Get All Users ------------------
-// const getData = await prisma.user.findMany();
-// console.log(getData);
-// ---------------- Create User ------------------
-// const postUser = await prisma.user.create({
-// data: {
-// email: "user_4@gmail.com",
-// name: "user 4",
-// role: "",
-// },
-// });
-// console.log(postUser);
